@@ -1,4 +1,4 @@
-package com.example.ecotrip2026g4.domain.model
+package com.example.gradetracker.domain.model
 
 import java.util.UUID
 

@@ -1,7 +1,7 @@
-package com.example.ecotrip2026g4.domain.usecase
+package com.example.gradetracker.domain.usecase
 
-import com.example.ecotrip2026g4.domain.model.AcademicGrade
-import com.example.ecotrip2026g4.domain.repository.GradeRepository
+import com.example.gradetracker.domain.model.AcademicGrade
+import com.example.gradetracker.domain.repository.GradeRepository
 
 class AddGradeUseCase(
     private val repository: GradeRepository

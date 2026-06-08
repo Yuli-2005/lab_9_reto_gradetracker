@@ -1,10 +1,10 @@
-package com.example.ecotrip2026g4.ui.presentation.grades
+package com.example.gradetracker.ui.presentation.grades
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.ecotrip2026g4.domain.model.AcademicGrade
-import com.example.ecotrip2026g4.domain.usecase.AddGradeUseCase
-import com.example.ecotrip2026g4.domain.usecase.GetGradesUseCase
+import com.example.gradetracker.domain.model.AcademicGrade
+import com.example.gradetracker.domain.usecase.AddGradeUseCase
+import com.example.gradetracker.domain.usecase.GetGradesUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
