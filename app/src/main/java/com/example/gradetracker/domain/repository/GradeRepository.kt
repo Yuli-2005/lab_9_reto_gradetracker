@@ -1,6 +1,6 @@
-package com.example.ecotrip2026g4.domain.repository
+package com.example.gradetracker.domain.repository
 
-import com.example.ecotrip2026g4.domain.model.AcademicGrade
+import com.example.gradetracker.domain.model.AcademicGrade
 import kotlinx.coroutines.flow.Flow
 
 /**

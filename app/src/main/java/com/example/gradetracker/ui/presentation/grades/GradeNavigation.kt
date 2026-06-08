@@ -1,4 +1,4 @@
-package com.example.ecotrip2026g4.ui.presentation.grades
+package com.example.gradetracker.ui.presentation.grades
 
 sealed class Screen(val route: String) {
     object GradeList : Screen("grade_list")

@@ -1,4 +1,4 @@
-package com.example.ecotrip2026g4
+package com.example.gradetracker
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

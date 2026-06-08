@@ -1,7 +1,7 @@
-package com.example.ecotrip2026g4.data.repository
+package com.example.gradetracker.data.repository
 
-import com.example.ecotrip2026g4.domain.model.AcademicGrade
-import com.example.ecotrip2026g4.domain.repository.GradeRepository
+import com.example.gradetracker.domain.model.AcademicGrade
+import com.example.gradetracker.domain.repository.GradeRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

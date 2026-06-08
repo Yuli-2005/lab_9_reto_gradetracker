@@ -1,6 +1,6 @@
-package com.example.ecotrip2026g4.ui.presentation.grades
+package com.example.gradetracker.ui.presentation.grades
 
-import com.example.ecotrip2026g4.domain.model.AcademicGrade
+import com.example.gradetracker.domain.model.AcademicGrade
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -8,11 +8,11 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -171,9 +171,10 @@ fun GradeFormScreen(
     onSaveGrade: (String, String, String) -> Unit,
     onCancel: () -> Unit
 ) {
-    var activityName by remember { mutableStateOf("") }
-    var subject by remember { mutableStateOf("") }
-    var gradeInput by remember { mutableStateOf("") }
+    var activityName by rememberSaveable { mutableStateOf("") }
+    var subject by rememberSaveable { mutableStateOf("") }
+    var gradeInput by rememberSaveable { mutableStateOf("") }
+
 
     val isFormValid = activityName.isNotBlank() && subject.isNotBlank() && gradeInput.isNotBlank()
     val errorMessage = if (uiState is GradeUiState.Error) uiState.message else null

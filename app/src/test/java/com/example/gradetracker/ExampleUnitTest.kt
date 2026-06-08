@@ -1,4 +1,4 @@
-package com.example.ecotrip2026g4
+package com.example.gradetracker
 
 import org.junit.Test
 

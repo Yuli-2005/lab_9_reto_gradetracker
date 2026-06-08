@@ -1,6 +1,6 @@
-package com.example.ecotrip2026g4.ui.presentation.grades
+package com.example.gradetracker.ui.presentation.grades
 
-import com.example.ecotrip2026g4.domain.model.AcademicGrade
+import com.example.gradetracker.domain.model.AcademicGrade
 
 sealed class GradeUiState {
     object Loading : GradeUiState()
